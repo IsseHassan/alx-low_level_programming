@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *Main - print alphabet in lower case
- *Description: followed by new line
- *Return: Always 0.
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,9 +13,9 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
-		putchar('\n');
 		c = c + 1;
 	}
+	putchar('\n');
 	return (0);
 
 
