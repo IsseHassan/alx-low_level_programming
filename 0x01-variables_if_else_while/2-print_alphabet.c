@@ -2,19 +2,18 @@
 #include <stdlib.h>
 /**
  *Main - Entery point
- *Description: program that prints the alphabet in lowercase, followed by a new line.
+ *Description: prints the alphabet in lowercase, followed by a new line.
  *Return: Always 0.
  */
 int main(void)
-	
 {
 	char c;
 	c = 'a';
-	while(c <= 'z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		putchar('\n');
-		c+= 1;
+		c += 1;
 	}
 	return (0);
 
