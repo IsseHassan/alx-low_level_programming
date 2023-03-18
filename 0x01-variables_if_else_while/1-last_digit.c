@@ -4,7 +4,7 @@
 /**
  *main - Prints the last digit of a randomly generated number
  *Description : and whether it is greater than 5, less than 6, or 0.
- * return: alwats 0 
+ * Return: alwats 0 
 */
 int main(void)
 {
