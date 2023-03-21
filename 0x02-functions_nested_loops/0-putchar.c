@@ -2,6 +2,7 @@
 /**
  * main - program that prints _putchar
  * Followed  by a new line
+ * Refrence main.h
  * Return: Always 0 (success)
  */
 int main(void)
