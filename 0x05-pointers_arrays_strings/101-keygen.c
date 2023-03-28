@@ -7,7 +7,7 @@
 int main(void)
 {
   char password[PASSWORD_LENGTH + 1]; // Allocate an extra byte for the null terminator
-  const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'123456789'";
   const size_t charset_size = sizeof(charset) - 1; // We don't count the null terminator
 
   srand(time(NULL)); // Seed the random number generator with the current time
