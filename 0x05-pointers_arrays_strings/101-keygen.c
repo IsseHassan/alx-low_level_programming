@@ -17,7 +17,7 @@ int main(void)
   }
   password[PASSWORD_LENGTH] = '\0'; // Add the null terminator at the end
 
-  printf("%s\n", password);
+  printf("Password: %s\n", password);
 
   return 0;
 }
